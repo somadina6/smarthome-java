@@ -3,7 +3,7 @@ package smarthome.appliances;
 public class AirConditioner implements Appliance {
     public enum Mode {
         COOL, HEAT, OFF
-    };
+    }
     private Mode mode;
 
     @Override

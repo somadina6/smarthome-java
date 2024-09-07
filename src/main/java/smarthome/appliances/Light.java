@@ -14,4 +14,8 @@ public class Light implements Appliance{
         isOn = true;
         System.out.println("Light turned on");
     }
+
+    public boolean getStatus(){
+        return isOn;
+    }
 }

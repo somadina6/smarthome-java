@@ -41,7 +41,7 @@ public class HomeController {
             scheduler.scheduleAtFixedRate(this::turnOffAll, delay, TimeUnit.DAYS.toSeconds(365), TimeUnit.SECONDS);
         }
         catch (Exception e) {
-          System.out.println(e.toString());
+          System.out.println(e);
         }
     }
 
